@@ -1,0 +1,26 @@
+# Requirements for Agents-in-London
+# Add the packages your project needs, one per line.
+# Example common packages (adjust or remove as you wish):
+requests>=2.31.0
+numpy>=1.28.0
+pytest>=7.4.0
+black>=24.3.0
+mypy>=1.14.0
+pillow>=10.0.0
+
+# GUI toolkit
+# tkinter is part of the Python standard library on many platforms but
+# often provided by a system package on Linux (e.g. Debian/Ubuntu: python3-tk).
+# Installing via pip is not recommended; if you need it on Linux, install the
+# system package or add the appropriate conda package (e.g. `tk` / `python-tk`).
+# Keep this commented here as a reminder for system-level install.
+# tkinter
+
+# C++ interop options
+# pybind11 - used to write C++ extension modules that are compiled and
+# exposed to Python (recommended for performance and tight integration).
+pybind11>=2.10.0
+
+# cppyy - runtime C++ bindings that can call into compiled C++ without
+# writing/compiling extensions in some cases; optional alternative.
+cppyy>=2.7.0
